@@ -1,0 +1,22 @@
+name: civic_ai_mobile
+description: SahayaNidhi civic grievance mobile frontend.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.33.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
